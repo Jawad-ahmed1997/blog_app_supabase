@@ -53,10 +53,10 @@ const CreateUpdateBlogView = ({ currentValue,isEdit,id }) => {
       }
       if(data){
         console.log(data)
+        reset()
       }
     }
     
-    reset()
     router.push('/')
     console.log("data in form",formData)
   })
